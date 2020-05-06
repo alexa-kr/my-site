@@ -27,7 +27,6 @@ body {
   max-width: 1408px;
   text-align: right;
 }
-
 .page-header a {
   margin-left: 56px;
   color: #288be6;
@@ -127,7 +126,15 @@ body {
   border: 1px solid #86c3fa;
   border-radius: 8px;
 }
+.photo{
 
+  display: flex;
+}
+.user{
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 20px;
+}
 .level div {
   margin: 1px;
   height: 12px;
@@ -172,12 +179,11 @@ body {
 .page-footer {
   padding: 40px 0;
   background-color: #00417d;
-  color: #ffffff;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -191,4 +197,10 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+.skills{
+  text-align: center;
+}
+img{
+  border-radius: 20px;
 }
